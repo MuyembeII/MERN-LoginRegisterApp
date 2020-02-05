@@ -1,0 +1,44 @@
+{
+  "name": "mern-login-singup-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuyembeII/MERN-LoginRegisterApp.git"
+  },
+  "author": "Gift Muyembe Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MuyembeII/MERN-LoginRegisterApp/issues"
+  },
+  "homepage": "https://github.com/MuyembeII/MERN-LoginRegisterApp/blob/master/README.md",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.2",
+    "connect-mongodb-session": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.0.0",
+    "express-session": "^1.16.2",
+    "helmet": "^3.21.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "react-router-dom": "^5.0.1",
+    "session-file-store": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
